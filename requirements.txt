@@ -1,0 +1,10 @@
+langchain
+langgraph
+langchain-community
+langchain-groq
+langchain-text-splitters
+faiss-cpu
+scikit-learn
+numpy
+python-dotenv
+streamlit
