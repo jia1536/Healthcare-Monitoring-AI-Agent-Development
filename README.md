@@ -50,8 +50,3 @@ pip install -r requirements.txt
 cp .env.example .env   # then add your GROQ_API_KEY (free at console.groq.com)
 python workflow.py
 ```
-
-## Notes / Next Steps
-- Swap `TfidfEmbeddings` for a hosted embedding model (e.g. HuggingFace `sentence-transformers`) once deployed, for stronger semantic retrieval.
-- Add the medication-tracking agent as the next node in the graph.
-- Persist `health_report` output to the SQLite health metrics database (Week 1-2 milestone).
