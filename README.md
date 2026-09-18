@@ -30,6 +30,10 @@ SQLite over Postgres/Redis, why regression instead of a trained ML model) and
 what's explicitly still out of scope (role-based auth, voice/image bonus
 features, HIPAA-grade infra) — written up front rather than silently skipped.
 
+## Technical areas I worked with
+
+Python · LangGraph · LangChain · Groq · FAISS · TF-IDF · SQLite · NumPy · Streamlit
+
 ## Workflow Diagram
 
 ![Workflow diagram](docs/workflow_diagram.svg)
