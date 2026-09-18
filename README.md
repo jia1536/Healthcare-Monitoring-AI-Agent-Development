@@ -1,7 +1,5 @@
 # Healthcare Monitoring AI Agent — Track B
 
-**Checkpoint: Week 5–6, Multi-Agent Milestone (fast-tracked)**
-
 ## Progress
 
 - [x] Backend structure (`App/agents`, `App/rag`, `App/tools`, `App/db`, `data/documents`)
