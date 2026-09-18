@@ -107,6 +107,17 @@ The Medications, Fitness, Goals, and Alerts tabs in the dashboard work
 directly against the local SQLite store with no API key required — only the
 Chat tab needs `GROQ_API_KEY`.
 
+## Engineering decisions
+
+One of the main goals of my work was to keep the project practical and explainable. 
+Instead of adding unnecessary complexity, the implementation uses:
+
+Keyword-based routing for the supervisor where a separate LLM call was not necessary.
+Local TF-IDF + FAISS retrieval for the medical knowledge base.
+SQLite for the demo database to keep local development simple.
+Rule-based risk detection + statistical trend analysis instead of claiming to use a trained clinical ML model.
+Role-based permissions to demonstrate how different healthcare users can interact with the system.
+
 ## Remaining for Week 7–8 (Polish & Production)
 
 - [x] Deploy-ready Streamlit dashboard (see `DEPLOYMENT.md`)
